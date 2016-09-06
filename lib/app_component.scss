@@ -1,0 +1,34 @@
+#hello {
+    padding:20px;
+    color: black;
+}
+.s1 {
+    background-color: #eee;
+    #hello: show;
+    #world {
+        color: red;
+        font-size: 80px;
+    }
+}
+#sample: up(100) rotate(20);
+.s2 {
+    background-color: #aaa;
+    #hello: right(150);
+    #world: show;
+}
+.s3 {
+    #hello {
+        color: white;
+        ::left(250);
+        background-color: rgba(200, 250, 200, 0.5);
+    }
+    #sample:show down(200) rotate(-20);
+}
+.s4 {
+    #hello: rotate(50) left(40);
+}
+.s5 {
+    #hello: rotate(-50,50) left(20) down(50);
+    background-color: #222;
+}
+
