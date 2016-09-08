@@ -111,6 +111,7 @@ symbol[name="dfua"] {
     background-color: rgba(200,200,200,0.6);
     width: 420px;
     transform-origin: 0 50%;
+    text-shadow: 0 0 12px black;
 }
 #a_learn: left(100) up(180) rotate(0,40);
 #a_fast: left(100) up(90) rotate(0,40);
@@ -162,7 +163,7 @@ symbol[name="dfua"] {
     #al_da: up(180) delay(0);
     #al_da_s: show up(300) rotate(-80);
 }
-#af_change: down(300);
+#af_change { ::down(300); font-size:3vmax;}
 #af_change_p: down(300) rotate(40);
 .s13 {
     #title: hide;
@@ -175,7 +176,7 @@ symbol[name="dfua"] {
     #af_change: show up(500) delay(0.8);
     #af_change_p: show up(250) delay(1) rotate(-40);
 }
-#af_aot: down(300);
+#af_aot{ ::down(320); font-size: 3vmax;}
 #af_aot_s: down(300) rotate(40);
 .s14 {
     #af_change: hide up(200) delay(0);
@@ -218,7 +219,7 @@ symbol[name="dfua"] {
     #afu_tech: up(420) show delay(0.4);
     #afu_tech_exp: up(420) show delay(0.8);
 }
-#lets { font-size: 7vmax;::up(500);}
+#lets { font-size: 7vmax;::up(500); text-shadow: 0 0 18px black;}
 .s19 {
     #afu_arch: down(300) hide;
     #afu_tech: down(420) hide;
@@ -230,7 +231,7 @@ symbol[name="dfua"] {
     #lets: show down(300) delay(1.5);
     #title:show down(300) delay(1.6);
 }
-#starts { font-size: 5vmax;::down(400); b { color: yellow;}}
+#starts { font-size: 5vmax;::down(400); b { color: yellow;} text-shadow: 0 0 12px black;}
 .s20 {
     #title: up(500) hide delay(0.2);
     #lets:up(500) hide delay(0);
@@ -271,7 +272,7 @@ symbol[name="dfua"] {
     #lets_breath: show delay(0.7) up(200);
     #breath: show up(400) delay(0.3);
 }
-#rend { font-size: 5vmax;::down(400); b { color: red;}}
+#rend { font-size: 5vmax;::down(400); b { color: red;} text-shadow: 0 0 12px black;}
 .s27 {
     #lets_breath: hide delay(0) up(600);
     #breath: hide up(400) delay(0.2);
@@ -301,7 +302,7 @@ symbol[name="dfua"] {
 
     #rend_s: right(500) rotate(0,120) show delay(0.4);
 }
-#comp { font-size: 4.5vmax;::down(400); b { color: red;}}
+#comp { font-size: 4.5vmax;::down(400); b { color: red;} text-shadow: 0 0 12px black;}
 .s31 {
     #rend: up(120) hide delay(0.2);
     #rend_s: up(500) hide delay(0);
@@ -359,7 +360,7 @@ symbol[name="dfua"] {
     #comp_b { li { opacity:0.4;} li:nth-child(2) { opacity: 0.4;} li:nth-child(3) { opacity: 1;}}
     #comp_lazy: show rotate(120) up(300) delay(0.8);
 }
-#help { font-size: 4.5vmax;::down(400); b { color: red;}}
+#help { font-size: 4.5vmax;::down(400); b { color: red;} text-shadow: 0 0 12px black;}
 
 .s39 {
     #comp_lazy: hide rotate(120) up(300) delay(0);
@@ -425,7 +426,7 @@ symbol[name="dfua"] {
     #rxjs_2o: hide down(40) delay(0);
     #rxjs_3o: show;
 }
-#cli { font-size: 4.5vmax;::up(400); b { color: red;}}
+#cli { font-size: 4.5vmax;::up(400); b { color: red;} text-shadow: 0 0 12px black;}
 
 .s49 {
     #rxjs_3: down(500) hide;
@@ -451,7 +452,7 @@ symbol[name="dfua"] {
     #cli_g: up(300) hide delay(0);
     #time: show scale(-2,-2);
  }
-#time_l{  font-size: 2vmax;::down(300);
+#time_l{  font-size: 2vmax;::down(350);
     li {
         width: 600px;
         margin: 20px; border: solid 1px white; background-color: rgba(200,200,200,0.5);
