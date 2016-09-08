@@ -1,0 +1,5 @@
+@Component(
+    selector: 'my-app',
+    styles: const ['div { color: red }'],
+    template: '<div>Hello, Angular 2!</div>')
+class AppComponent {}

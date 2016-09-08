@@ -1,0 +1,15 @@
+@Component(
+    selector: 'component',
+    template:'Child:<child></child>.',
+    directives: const[ChildComponent])
+class TheComponent implements OnInit {
+
+  @ViewChild(ChildComponent) ChildComponent subchild;
+  ParentComponent parent;
+
+  TheComponent(this.parent) {}
+  ngOnInit() {
+    print("Parent ${parent}");
+    print("Child ${subchild}");
+  }
+}
