@@ -251,6 +251,7 @@ symbol[name="dfua"] {
   background-color: rgba(200, 200, 200, 0.6);
   width: 420px;
   transform-origin: 0 50%;
+  text-shadow: 0 0 12px #000;
 }
 #a_learn {
   transform: translateX(-100px) translateY(-180px) rotateX(0deg) rotateY(40deg);
@@ -405,6 +406,7 @@ symbol[name="dfua"] {
 }
 #af_change {
   transform: translateY(300px);
+  font-size: 3vmax;
 }
 #af_change_p {
   transform: translateY(300px) rotateX(40deg);
@@ -448,7 +450,8 @@ symbol[name="dfua"] {
   transition-delay: 1s;
 }
 #af_aot {
-  transform: translateY(300px);
+  transform: translateY(320px);
+  font-size: 3vmax;
 }
 #af_aot_s {
   transform: translateY(300px) rotateX(40deg);
@@ -467,7 +470,7 @@ symbol[name="dfua"] {
 }
 .s14 #af_aot {
   opacity: 1;
-  transform: translateY(-200px);
+  transform: translateY(-180px);
   transition-delay: 0.4s;
 }
 .s14 #af_aot_s {
@@ -515,7 +518,7 @@ symbol[name="dfua"] {
 }
 .s16 #af_aot {
   opacity: 0;
-  transform: translateY(-500px);
+  transform: translateY(-480px);
   transition-delay: 0.6s;
 }
 .s16 #a_fast {
@@ -614,6 +617,7 @@ symbol[name="dfua"] {
 #lets {
   font-size: 7vmax;
   transform: translateY(-500px);
+  text-shadow: 0 0 18px #000;
 }
 .s19 {
 }
@@ -662,6 +666,7 @@ symbol[name="dfua"] {
 #starts {
   font-size: 5vmax;
   transform: translateY(400px);
+  text-shadow: 0 0 12px #000;
 }
 #starts b {
   color: #ff0;
@@ -788,6 +793,7 @@ symbol[name="dfua"] {
 #rend {
   font-size: 5vmax;
   transform: translateY(400px);
+  text-shadow: 0 0 12px #000;
 }
 #rend b {
   color: #f00;
@@ -869,6 +875,7 @@ symbol[name="dfua"] {
 #comp {
   font-size: 4.5vmax;
   transform: translateY(400px);
+  text-shadow: 0 0 12px #000;
 }
 #comp b {
   color: #f00;
@@ -1044,6 +1051,7 @@ symbol[name="dfua"] {
 #help {
   font-size: 4.5vmax;
   transform: translateY(400px);
+  text-shadow: 0 0 12px #000;
 }
 #help b {
   color: #f00;
@@ -1250,6 +1258,7 @@ symbol[name="dfua"] {
 #cli {
   font-size: 4.5vmax;
   transform: translateY(-400px);
+  text-shadow: 0 0 12px #000;
 }
 #cli b {
   color: #f00;
@@ -1334,7 +1343,7 @@ symbol[name="dfua"] {
 }
 #time_l {
   font-size: 2vmax;
-  transform: translateY(300px);
+  transform: translateY(350px);
 }
 #time_l li {
   width: 600px;
@@ -1353,7 +1362,7 @@ symbol[name="dfua"] {
 }
 .s53 #time_l {
   opacity: 1;
-  transform: translateY(0px);
+  transform: translateY(50px);
 }
 #thnx {
   font-size: 8vmax;
@@ -1372,7 +1381,7 @@ symbol[name="dfua"] {
 }
 .s54 #time_l {
   opacity: 0;
-  transform: translateY(0px) rotateX(0deg) rotateY(90deg);
+  transform: translateY(50px) rotateX(0deg) rotateY(90deg);
   transition-delay: 0s;
 }
 .s54 #thnx {

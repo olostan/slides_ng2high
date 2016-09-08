@@ -111,6 +111,7 @@ symbol[name="dfua"] {
     background-color: rgba(200,200,200,0.6);
     width: 420px;
     transform-origin: 0 50%;
+    text-shadow: 0 0 12px black;
 }
 #a_learn{ transform:translateX(-100px) translateY(-180px) rotateX(0deg) rotateY(40deg);}
 #a_fast{ transform:translateX(-100px) translateY(-90px) rotateX(0deg) rotateY(40deg);}
@@ -162,7 +163,7 @@ symbol[name="dfua"] {
     #al_da{ transform:translateY(-180px);transition-delay: 0s;}
     #al_da_s{ opacity:1;transform:translateX(20px) translateY(0px) rotateX(0deg);}
 }
-#af_change{ transform:translateY(300px);}
+#af_change { transform:translateY(300px); font-size:3vmax;}
 #af_change_p{ transform:translateY(300px) rotateX(40deg);}
 .s13 {
     #title{ opacity:0;}
@@ -175,12 +176,12 @@ symbol[name="dfua"] {
     #af_change{ opacity:1;transform:translateY(-200px);transition-delay: 0.8s;}
     #af_change_p{ opacity:1;transform:translateY(50px) rotateX(0deg);transition-delay: 1s;}
 }
-#af_aot{ transform:translateY(300px);}
+#af_aot { transform:translateY(320px); font-size: 3vmax;}
 #af_aot_s{ transform:translateY(300px) rotateX(40deg);}
 .s14 {
     #af_change{ opacity:0;transform:translateY(-400px);transition-delay: 0s;}
     #af_change_p{ opacity:0;transform:translateY(-500px) rotateX(-40deg);transition-delay: 0.2s;}
-    #af_aot{ opacity:1;transform:translateY(-200px);transition-delay: 0.4s;}
+    #af_aot{ opacity:1;transform:translateY(-180px);transition-delay: 0.4s;}
     #af_aot_s{ opacity:1;transform:translateY(-50px) rotateX(0deg);transition-delay: 0.6s;}
 }
 #af_aot_r{ transform:translateY(-50px) rotateX(0deg) rotateY(180deg) scaleX(0.7) scaleY(0.7);}
@@ -194,7 +195,7 @@ symbol[name="dfua"] {
     #af_aot_b{ opacity:0;transform:translateY(-150px);transition-delay: 0s;}
     #af_aot_r{ opacity:0;transform:translateY(-350px) rotateX(0deg) rotateY(0deg) scaleX(0.7) scaleY(0.7);transition-delay: 0.2s;}
     #af_aot_s{ transform:translateY(-350px) rotateX(0deg) rotateY(180deg);transition-delay: 0.4s;}
-    #af_aot{ opacity:0;transform:translateY(-500px);transition-delay: 0.6s;}
+    #af_aot{ opacity:0;transform:translateY(-480px);transition-delay: 0.6s;}
     #a_fast { padding-bottom: 10px; padding-right:10px;transform:translateX(700px) translateY(-190px) rotateX(0deg) rotateY(0deg) rotateZ(90deg);transition-delay: 0.8s;}
     #a_adopted { padding-bottom: 500px; padding-right:400px;transform:translateX(15px) translateY(10px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);transition-delay: 0.9s;}
     #aa_libsc{ opacity:1;transform:translateX(0px) translateY(30px);transition-delay: 1.6s;}
@@ -218,7 +219,7 @@ symbol[name="dfua"] {
     #afu_tech{ opacity:1;transform:translateY(-120px);transition-delay: 0.4s;}
     #afu_tech_exp{ opacity:1;transform:translateY(-20px);transition-delay: 0.8s;}
 }
-#lets { font-size: 7vmax;transform:translateY(-500px);}
+#lets { font-size: 7vmax;transform:translateY(-500px); text-shadow: 0 0 18px black;}
 .s19 {
     #afu_arch{ opacity:0;transform:translateY(120px);}
     #afu_tech{ opacity:0;transform:translateY(300px);}
@@ -230,7 +231,7 @@ symbol[name="dfua"] {
     #lets{ opacity:1;transform:translateY(-200px);transition-delay: 1.5s;}
     #title{ opacity:1;transform:translateY(-50px);transition-delay: 1.6s;}
 }
-#starts { font-size: 5vmax;transform:translateY(400px); b { color: yellow;}}
+#starts { font-size: 5vmax;transform:translateY(400px); b { color: yellow;} text-shadow: 0 0 12px black;}
 .s20 {
     #title{ opacity:0;transform:translateY(-550px);transition-delay: 0.2s;}
     #lets{ opacity:0;transform:translateY(-700px);transition-delay: 0s;}
@@ -271,7 +272,7 @@ symbol[name="dfua"] {
     #lets_breath{ opacity:1;transform:translateY(180px);transition-delay: 0.7s;}
     #breath{ opacity:1;transform:translateY(0px) scaleX(1.8) scaleY(1.8);transition-delay: 0.3s;}
 }
-#rend { font-size: 5vmax;transform:translateY(400px); b { color: red;}}
+#rend { font-size: 5vmax;transform:translateY(400px); b { color: red;} text-shadow: 0 0 12px black;}
 .s27 {
     #lets_breath{ opacity:0;transform:translateY(-420px);transition-delay: 0s;}
     #breath{ opacity:0;transform:translateY(-400px) scaleX(1.8) scaleY(1.8);transition-delay: 0.2s;}
@@ -301,7 +302,7 @@ symbol[name="dfua"] {
 
     #rend_s{ opacity:1;transform:translateX(0px) rotateX(0deg) rotateY(0deg);transition-delay: 0.4s;}
 }
-#comp { font-size: 4.5vmax;transform:translateY(400px); b { color: red;}}
+#comp { font-size: 4.5vmax;transform:translateY(400px); b { color: red;} text-shadow: 0 0 12px black;}
 .s31 {
     #rend{ opacity:0;transform:translateY(-500px);transition-delay: 0.2s;}
     #rend_s{ opacity:0;transform:translateX(0px) translateY(-500px) rotateX(0deg) rotateY(0deg);transition-delay: 0s;}
@@ -359,7 +360,7 @@ symbol[name="dfua"] {
     #comp_b { li { opacity:0.4;} li:nth-child(2) { opacity: 0.4;} li:nth-child(3) { opacity: 1;}}
     #comp_lazy{ opacity:1;transform:translateY(0px) rotateX(0deg);transition-delay: 0.8s;}
 }
-#help { font-size: 4.5vmax;transform:translateY(400px); b { color: red;}}
+#help { font-size: 4.5vmax;transform:translateY(400px); b { color: red;} text-shadow: 0 0 12px black;}
 
 .s39 {
     #comp_lazy{ opacity:0;transform:translateY(-300px) rotateX(120deg);transition-delay: 0s;}
@@ -425,7 +426,7 @@ symbol[name="dfua"] {
     #rxjs_2o{ opacity:0;transform:translateY(190px);transition-delay: 0s;}
     #rxjs_3o{ opacity:1;}
 }
-#cli { font-size: 4.5vmax;transform:translateY(-400px); b { color: red;}}
+#cli { font-size: 4.5vmax;transform:translateY(-400px); b { color: red;} text-shadow: 0 0 12px black;}
 
 .s49 {
     #rxjs_3{ opacity:0;transform:translateX(40px) translateY(467px);}
@@ -451,7 +452,7 @@ symbol[name="dfua"] {
     #cli_g{ opacity:0;transform:translateY(-300px) rotateX(0deg) rotateY(0deg) scaleX(0.7) scaleY(0.7);transition-delay: 0s;}
     #time{ opacity:1;transform:scaleX(1) scaleY(1);}
  }
-#time_l {  font-size: 2vmax;transform:translateY(300px);
+#time_l {  font-size: 2vmax;transform:translateY(350px);
     li {
         width: 600px;
         margin: 20px; border: solid 1px white; background-color: rgba(200,200,200,0.5);
@@ -462,12 +463,12 @@ symbol[name="dfua"] {
 
 .s53 {
     #time{ transform:translateY(-300px) scaleX(1) scaleY(1);transition-delay: 0.2s;}
-    #time_l{ opacity:1;transform:translateY(0px);}
+    #time_l{ opacity:1;transform:translateY(50px);}
 }
 #thnx { font-size: 8vmax; text-shadow: 0 0 10px black;transform:rotateX(0deg) rotateY(-90deg); b { color: yellow;}}
 .s54 {
     #time{ opacity:0;transform:translateY(-300px) rotateX(0deg) rotateY(90deg) scaleX(1) scaleY(1);transition-delay: 0s;}
-    #time_l{ opacity:0;transform:translateY(0px) rotateX(0deg) rotateY(90deg);transition-delay: 0s;}
+    #time_l{ opacity:0;transform:translateY(50px) rotateX(0deg) rotateY(90deg);transition-delay: 0s;}
     #thnx{ opacity:1;transform:rotateX(0deg) rotateY(0deg);transition-delay: 0.3s;}
 }
 #links { a { color: white; text-decoration: none;} font-size: 3vmax;
