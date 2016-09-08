@@ -1,3 +1,11 @@
-/**
- * Created by vshybanov on 9/8/16.
- */
+import { Directive, ElementRef, Renderer }
+        from '@angular/core';
+
+@Directive({ selector: '[highlight]' })
+/** Highlight the attached element in gold */
+export class HighlightDirective {
+    constructor(renderer: Renderer, el: ElementRef) {
+        renderer.setElementStyle(
+            el.nativeElement, 'backgroundColor', 'gold');
+    }
+}

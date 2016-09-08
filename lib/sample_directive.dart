@@ -41,7 +41,6 @@ class SampleDirective implements OnInit {
   static final HtmlEscape sanitizer = const HtmlEscape();
 
   SampleService _prettifyService;
-  ElementRef _element;
 
   @Input('sample') String url;
   @Input('name') String name;
@@ -49,13 +48,11 @@ class SampleDirective implements OnInit {
   Renderer _renderer;
   ViewContainerRef _viewContainer;
 
-  SampleDirective(this._element,this._prettifyService, this._renderer, this._viewContainer) {
+  SampleDirective(this._prettifyService, this._renderer, this._viewContainer) {
   }
 
   ngOnInit() async {
-    print("Loading sample"+url);
     final sample = await _prettifyService.getSample(url);
-    print("loaded sample ${sample}");
     final sanitiedSample = sanitizer.convert(sample);
     var type = 'html';
     var extensionIdx = url.lastIndexOf('.');
@@ -67,10 +64,6 @@ class SampleDirective implements OnInit {
     await _prettifyService.ensureLoaded();
     final prettifiedSample =  context.callMethod('prettyPrintOne', [sanitiedSample,type]);
     final wrappedSample = '<pre id=${name} class="prettyprint">$prettifiedSample</pre>';
-    //this._renderer.
-    //this._renderer.setElementProperty(this._element.nativeElement,'innerHTML',wrappedSample);
-    //_element.innerHtml = sample;
-    //this._viewContainer.
     this._renderer.setElementProperty(this._viewContainer.element.nativeElement,'innerHTML',wrappedSample);
 
 

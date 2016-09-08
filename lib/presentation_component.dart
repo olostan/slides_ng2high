@@ -58,9 +58,12 @@ class PresentationComponent implements OnDestroy,OnInit {
       //print("Key up ${key.which}");
       //window.console.debug(key);
       switch(key.which) {
+        case 34:
         case 39:
+        case 32:
           nextSlide();
           break;
+        case 33:
         case 37:
           prevSlide();
           break;

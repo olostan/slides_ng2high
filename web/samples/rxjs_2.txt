@@ -1,0 +1,4 @@
+obs value 0
+observer 1 received 0
+obs value 0
+observer 2 received 0

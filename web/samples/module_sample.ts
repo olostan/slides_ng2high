@@ -1,3 +1,8 @@
-/**
- * Created by vshybanov on 9/8/16.
- */
+@NgModule({
+    imports:      [ /* other modules */ ],
+    declarations: [ /* module's components, pipes */ ],
+    exports:      [ /* exports for others */ ],
+    providers:    [ /* services */ ],
+    bootstrap:    [ /* root component */ ],
+})
+export class MyAngularModule { }
