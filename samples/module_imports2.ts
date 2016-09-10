@@ -2,7 +2,7 @@
     imports:      [ CommonModule,
         FormsModule, routing ],
     declarations: [ UserListComponent,
-        UserComponent, MoneyPipe ],
+        UserComponent, MoneyPipe , HighightDirective],
     exports:      [ UserListComponent ],
     providers:    [ UsersService ],
 })

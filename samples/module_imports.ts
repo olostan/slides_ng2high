@@ -1,7 +1,7 @@
 @NgModule({
     imports:      [ BrowserModule,
         MyUsersModule, routing ],
-    declarations: [ AppComponent ],
+    declarations: [ AppComponent, HighightDirective ],
     providers:    [ AppStateService ],
     bootstrap:    [ AppComponent ],
 })
